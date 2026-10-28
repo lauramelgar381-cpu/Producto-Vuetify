@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+vendor/
+
+# Variables de entorno (usar los .env.example como plantilla)
+.env
+.env.*
+!.env.example
+
+# Base de datos local
+*.sqlite
+*.sqlite.bak
+
+# Builds y caches
+dist/
+dist-ssr/
+coverage/
+.eslintcache
+*.tsbuildinfo
+*.log
+
+# Editores y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

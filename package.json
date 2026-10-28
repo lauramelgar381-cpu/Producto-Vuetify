@@ -1,0 +1,13 @@
+{
+  "name": "productos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c blue,green \"cd api-productos/backend && php artisan serve\" \"cd fronted_api2 && npm run dev\""
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
